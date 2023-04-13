@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Programming Activities</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            font-size: 1.5rem;
+            color: hsla(0, 0%, 96%, 0.918);
+            background-color: #333;
+        }
+        .header {
+            position: relative;
+            background-image: url("profile_background.jpg");
+            height: 350px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            
+        }
+
+        #profile {
+            margin: 250px auto 0 ;
+            height: 50%;
+            border: 3px solid white;
+            border-radius: 90px;
+            flex-basis: 180px;
+            flex-shrink: 1;
+            
+        }
+
+        .name_container {
+            background-color: #333;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            text-align: center;
+        }
+        #name {
+            flex-grow: 1;
+            flex-shrink: 1;
+            margin: 80px auto 0;
+        }
+
+        .table_container {
+            display: flex;
+            background-color: #333;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+        
+        table {
+            margin-top: 20px;
+            border: 3px solid whitesmoke;
+            border-radius: 10px;
+        }
+
+        table tr {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: whitesmoke;
+            transition: color 1s;
+            
+        }
+
+        a:hover {
+            color: red;
+            font-size: 1.5rem;
+        }
+
+
+    </style>
+</head>
+    <body>
+        <header class="header">
+            <img id="profile" src="joshuaProf.jpg" alt="profile" width="10%">
+
+        </header>
+        <div class="name_container"><h2 id="name">Joshua Carreon</h2></div>
+        <div class="table_container">
+            <table border="1">
+                <thead>
+                    <tr><th>Web Programming Activities</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="Activity1.html">Activity 1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Activity2.html">Activity 2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Activity3.html">Activity 3</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Activity4.html">Activity 4</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Activity5.html">Activity 5</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="Activity6.html">Activity 6</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>
